@@ -159,7 +159,7 @@ export default function App() {
                   data-tooltip-html={`<img src="${DrakeImage}" width="100%" />`}
                   className={styles.dotted}
                 >
-                  to <span className={styles.hideMobile}>celebriites</span><span className={styles.showMobile}>celebs</span>
+                  to <span className={styles.hideMobile}>celebrities</span><span className={styles.showMobile}>celebs</span>
                 </span>
                 .
               </div>

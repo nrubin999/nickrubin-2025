@@ -12,9 +12,8 @@
 }
 
 .name {
-  font-family: mono-bold, monospace;
-  font-weight: bold;
-  font-size: 24px;
+  font-family: name, mono-semibold, monospace;
+  font-size: 26px;
 }
 
 .lines {
