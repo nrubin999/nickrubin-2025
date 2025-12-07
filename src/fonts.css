@@ -1,0 +1,26 @@
+@font-face {
+  font-family: semibold;
+  src: url('./fonts/Inter-SemiBold.ttf');
+  font-display: swap;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: bold;
+  src: url('./fonts/Inter-Bold.ttf');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: mono-bold;
+  src: url('./fonts/CommitMono-700-Regular.otf');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: mono-semibold;
+  src: url('./fonts/JetBrainsMono-SemiBold.woff2');
+  font-display: swap;
+}

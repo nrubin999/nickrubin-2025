@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  margin-top: 80px;
+  width: 500px;
+  margin-bottom: 100px;
+}
+
+.name {
+  font-family: mono-bold, monospace;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.lines {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  font-family: mono-semibold, monospace;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dotted {
+  display: inline;
+  border-bottom: 1px dotted #999999;
+  cursor: pointer;
+  color: #333333;
+}
+
+.dotted:hover {
+  color: #555555;
+}
+
+.indent {
+  padding-left: 25px;
+}
+
+.link {
+  color: #0984e3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fontPreload {
+  font-family: semibold, monospace;
+}
+
+.textTooltip {
+  max-width: 300px;
+  font-size: 14px;
+  font-family: semibold, monospace;
+}
+
+.imageTooltip {
+  max-width: 350px;
+  padding: 10px 10px !important;
+  opacity: 1 !important;
+}
+
+.drakeTooltip {
+  max-width: 300px;
+  padding: 10px 10px !important;
+  opacity: 1 !important;
+}
+
+.showMobile {
+  display: none;
+}
+
+@media screen and (max-width: 660px) {
+  .main {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lines {
+    gap: 16px;
+  }
+  .main {
+    margin-top: 70px;
+    width: 80%;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .row {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main {
+    width: 90%;
+  }
+  .imageTooltip {
+    max-width: 280px;
+  }
+  .drakeTooltip {
+    max-width: 230px;
+  }
+  .hideMobile {
+    display: none;
+  }
+  .showMobile {
+    display: inline;
+  }
+  .textTooltip {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .row {
+    font-size: 11px;
+  }
+}

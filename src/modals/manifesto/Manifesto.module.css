@@ -1,0 +1,51 @@
+.modalContainer {
+  padding: 25px;
+  max-height: 550px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.bold {
+  font-family: mono-bold, monospace;
+  font-weight: bold;
+}
+
+.manifestoText {
+  font-family: mono-semibold, monospace;
+  font-size: 15px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.winnoImageContainer {
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.winnoImage {
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .modalContainer {
+    padding: 18px;
+    max-height: 450px;
+  }
+  .manifestoText {
+    font-size: 12px;
+  }
+}
