@@ -1,4 +1,6 @@
-import { ReactNode, useEffect, useState } from 'react';
+import type React from 'react';
+import type { ReactNode } from 'react';
+import { useEffect, useState } from 'react';
 import { ModalContext } from './ModalContext';
 
 import styles from './Modal.module.css';

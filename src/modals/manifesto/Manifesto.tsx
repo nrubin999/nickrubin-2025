@@ -1,3 +1,4 @@
+import type React from 'react';
 import styles from './Manifesto.module.css';
 
 import Modal from '../Modal';
